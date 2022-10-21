@@ -35,8 +35,8 @@ function getStuInfo(){
         let stuAddress = prompt("Enter address");
         let stuContact = prompt("Enter contact");
         
-        let stuObj = new Student(stuId, stuName, stuAge, stuStandard, stuRoll, stuAddress, stuContact);
-        stuArray.push(stuObj);
+        // let stuObj = new Student(stuId, stuName, stuAge, stuStandard, stuRoll, stuAddress, stuContact);
+        // stuArray.push(stuObj);
     }
 
     //Displaying the array after inserting

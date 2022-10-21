@@ -1,3 +1,4 @@
+"use strict";
 //Variable declaration
 function addNumbers(first, second) {
     return first + second;
@@ -5,7 +6,7 @@ function addNumbers(first, second) {
 // var addNumbers = (first, second) => {
 //     return first + second
 // ;}
-var numberOne = 100;
-var numberTwo = 200;
-var result = addNumbers(numberOne, numberTwo);
+const numberOne = 100;
+const numberTwo = 200;
+const result = addNumbers(numberOne, numberTwo);
 console.log(result);
